@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>ヤポニッシュ</title>
+    <meta property="og:title" content="ヤポニッシュ" />
+    <meta
+      property="og:description"
+      content="ヤポニッシュは日本での賃貸契約と引っ越しの手順を掲載しています。"
+    />
+    <link rel="icon" href="/favicon.ico/yaponish.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/lib/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    
+
+    <header class="header">
+      <div class="header_inner">
+        <div class="header_logo">
+          <img class="header_logo_image" src="./img/yaponish.png" alt="" />
+        </div>
+        <nav class="header_nav">
+          <a href="#search" class="header_link">物件探し</a>
+          <a href="#visit" class="header_link">内見申し込み</a>
+          <a href="#contact" class="header_link">契約</a>
+          <a href="#move" class="header_link">引っ越し</a>
+        </nav>
+        <button id="js-drawer-icon" class="header_open drawer-icon">
+          <span class="drawer-icon_bar"></span>
+          <span class="drawer-icon_bar"></span>
+          <span class="drawer-icon_bar"></span>
+        </button>
+      </div>
+    </header>
+    <div class="fix_header_area"></div>
+
+    <div id="js-drawer-content" class="drawer-content">
+      <nav class="drawer-content_menu">
+        <a href="#search" class="drawer-content_link">物件探し</a>
+        <a href="#visit" class="drawer-content_link">内見</a>
+        <a href="#contact" class="drawer-content_link">申し込み</a>
+        <a href="#move" class="drawer-content_link">引っ越し</a>
+      </nav>
+    </div>
+
+    <div class="about">
+      <div class="about_inner inner">
+        <p class="about_text">
+          日本での賃貸契約と<br class="hidden-pc" />
+          引っ越しの手順を掲載しています。
+        </p>
+      </div>
+    </div>
+
+    <div class="attention">
+      引っ越しする際には時間とお金がかかります。
+      なるべくそれらを無駄にしないように準備して行動して行きましょう！<br>
+      業者によっては必要のないお金を取ろうとしてくるので気を付けてください。
+    </div>
+
+    <section class="main">
+      <div class="inner">
+        <div class="how-to-use_boxes">
+          <div class="how-to-use_box">
+            <div class="how-to-use_steps">
+              <div id="search" class="how-to-use_step">
+                <div class="step-box">
+                  <div class="step-box_head">
+                    <div class="step-box_head-top">STEP1</div>
+                    <div class="step-box_head-bottom">物件探し</div>
+                  </div>
+                  <div class="step-box_body">
+                    <p class="step-box_text">
+                      あなたの希望する条件をまとめておく
+                      賃料や初期費用の予算、住みたいエリア、その他重視したいポイントなどを考えておきましょう。
+                      大手のポータルサイトで複数物件を洗い出す
+                      インターネットで物件情報を検索するときは、多くの不動産会社が掲載しているポータルサイトを利用しましょう。
+                      例えば、<a target="_blank" href="http://suumo.jp/">SUUMO</a>や<a target="_blank" href="https://www.homes.co.jp">HOME'S</a>などが有名です。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="visit" class="how-to-use_step">
+                <div class="step-box">
+                  <div class="step-box_head">
+                    <div class="step-box_head-top">STEP2</div>
+                    <div class="step-box_head-bottom">内見</div>
+                  </div>
+                  <div class="step-box_body">
+                    <p class="step-box_text">
+                      内見の予約をする
+                      気に入った物件があったら、取り扱っている不動産会社に連絡して、内見の予約をしましょう。
+                      できるだけ早めに予約することがおすすめです。
+                      内見でくまなくチェックする
+                      実際に物件を見て、間取りや設備、日当たりや防音などを確認しましょう。
+                      不明な点や気になる点は不動産会社の担当者に質問しましょう。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="contact" class="how-to-use_step">
+                <div class="step-box">
+                  <div class="step-box_head">
+                    <div class="step-box_head-top">STEP3</div>
+                    <div class="step-box_head-bottom">申し込み</div>
+                  </div>
+                  <div class="step-box_body">
+                    <p class="step-box_text">
+                      気に入ったら申し込む
+                      内見で気に入った物件があれば、その場で申し込みをしましょう。
+                      申し込みには必要書類や連帯保証人の情報が必要です。
+                      申し込み後は入居審査が行われます。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="move" class="how-to-use_step">
+                <div class="step-box">
+                  <div class="step-box_head">
+                    <div class="step-box_head-top">STEP4</div>
+                    <div class="step-box_head-bottom">引っ越し</div>
+                  </div>
+                  <div class="step-box_body">
+                    <p class="step-box_text">
+                      引っ越し先の物件を探し、契約する
+                      引っ越し業者を選び、見積もりや予約をする
+                      不用品を処分し、荷造りをする
+                      電気・ガス・水道・インターネットなどの各種手続きをする
+                      旧居と新居の近隣に挨拶をする
+                      引っ越し当日に荷物の搬出・搬入をする
+                      旧居の掃除と鍵の引き渡しをする 新居で荷解きをする
+                      転出届・転入届などの役所での手続きをする
+                      銀行・クレジットカード・保険などの住所変更をする
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_inner inner">
+        <small class="footer_address">fuyuki07255512555@gmail.com</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
